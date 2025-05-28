@@ -1,0 +1,66 @@
+{
+    "numerical_features": [
+        "p1_rank",
+        "p2_rank",
+        "p1_pts",
+        "p2_pts",
+        "best_of"
+    ],
+    "categorical_features": [
+        "surface",
+        "round",
+        "series_cat",
+        "court_type"
+    ],
+    "scaler_means": [
+        65.51626016260163,
+        65.51626016260163,
+        2081.691056910569,
+        2081.691056910569,
+        5.0
+    ],
+    "scaler_scales": [
+        92.05171388024256,
+        92.05171388024256,
+        2270.618780066695,
+        2270.618780066695,
+        1.0
+    ],
+    "onehot_categories": {
+        "surface": [
+            "Clay"
+        ],
+        "round": [
+            "1st Round",
+            "2nd Round",
+            "3rd Round",
+            "4th Round",
+            "Quarterfinals",
+            "Semifinals",
+            "The Final"
+        ],
+        "series_cat": [
+            "Grand Slam"
+        ],
+        "court_type": [
+            "Outdoor"
+        ]
+    },
+    "feature_order": [
+        "p1_rank",
+        "p2_rank",
+        "p1_pts",
+        "p2_pts",
+        "best_of",
+        "surface_Clay",
+        "round_1st Round",
+        "round_2nd Round",
+        "round_3rd Round",
+        "round_4th Round",
+        "round_Quarterfinals",
+        "round_Semifinals",
+        "round_The Final",
+        "series_cat_Grand Slam",
+        "court_type_Outdoor"
+    ]
+}
